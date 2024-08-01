@@ -1,0 +1,28 @@
+@import url("../../global.css");
+
+.home{
+    display: flex;
+}
+
+.left{
+    width: 260px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.right{
+    flex: 1;
+    width: 100%;
+    padding: 2rem;
+    position: relative;
+    transition: 300ms ease all;
+    backface-visibility: hidden;
+    min-height: 115vh;
+    margin-left: 260px;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}

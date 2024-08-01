@@ -1,0 +1,307 @@
+.subContent {
+    padding-top: 2rem;
+    display: flex;
+    overflow: auto;
+}
+
+.title {
+    color: var(--text-second-color);
+}
+
+.line {
+    margin-left: 1rem;
+    height: 3rem;
+    width: 1px;
+    background-color: var(--main-color);
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    min-width: 700px;
+    width: 700px;
+    margin-right: 20px;
+}
+
+.left form {
+    background-color: var(--background-color1);
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.left form h1 {
+    margin-bottom: 1rem;
+}
+
+.right {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+
+
+.inputCus {
+    background-color: transparent !important;
+    border: 1px solid #404656;
+    padding: 1.5rem 2rem;
+    color: var(--text-main-color);
+    font-size: 1.2rem;
+}
+
+.inputCus:focus {
+    color: var(--text-main-color);
+}
+
+.selectCus {
+    background-color: transparent !important;
+    border: 1px solid #404656;
+    color: var(--main-color);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.selectCus:focus {
+    color: var(--main-color);
+}
+
+.selectCus option {
+    /* Tùy chỉnh nền cho các tùy chọn */
+    background-color: var(--background-color1);
+    color: #Fff;
+}
+
+.selectCus option:hover {
+    /* Tùy chỉnh nền khi hover trên tùy chọn */
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.selectCus option:checked {
+    /* Tùy chỉnh nền khi tùy chọn được chọn */
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+
+
+/* --------------REF ----------- */
+.date {
+    font-family: "Bold", sans-serif;
+    font-size: 22px;
+    top: 565px;
+    right: 40px;
+    color: #4b4b4b;
+}
+
+.time {
+    font-size: 8px;
+    top: 91px;
+    right: 19px;
+    color: #9d9d9d;
+}
+
+.transactionCode {
+    font-size: 8px;
+    top: 100px;
+    right: 19px;
+    color: #9d9d9d;
+}
+
+.senderNumber {
+    font-size: 10px;
+    top: 186px;
+    right: 19px;
+    color: #4f4f4f;
+}
+
+.senderAccount {
+    font-size: 10px;
+    top: 197px;
+    right: 19px;
+    color: #4f4f4f;
+}
+
+.receiverAccount {
+    font-size: 20px;
+    top: 464px;
+    left: 113px;
+    color: #c1c1c1;
+}
+
+.receiverName {
+    font-family: "Bold", sans-serif;
+    font-size: 25px;
+    top: 431px;
+    left: 113px;
+    color: #24003c;
+}
+
+.nameBank {
+    width: 130px;
+    font-size: 10px;
+    top: 261px;
+    right: 19px;
+    color: #4f4f4f;
+    line-height: 10px;
+    text-align: end;
+}
+
+.amountNumber {
+    display: flex;
+    justify-content: center;
+    font-family: "Bold", sans-serif;
+    font-size: 26px;
+    top: 156px;
+    right: 0px;
+    color: #a4a4a4;
+    text-align: center;
+    width: 591px;
+}
+.amountNumber1 {
+    font-family: "Bold", sans-serif;
+    font-size: 60px;
+    color: #484848;
+}
+
+
+.amountText {
+    text-align: center;
+    font-size: 15px;
+    top: 241px;
+    right: 108px;
+    width: 350px;
+    color: #a4a4a4;
+}
+
+.description {
+    font-family: "Bold", sans-serif;
+    width: 159px;
+    font-size: 20px;
+    top: 650px;
+    right: 40px;
+    color: #4b4b4b;
+    line-height: 20px;
+    text-align: end;
+}
+
+.donvi{
+    font-family: "Bold", sans-serif;
+    font-size: 40px;
+    color: #a4a4a4;
+    top: 30px;
+    right: 30px;
+    margin-left: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.boxIcon{
+    width: 40px;
+    height: 40px;
+    top: 439px;
+    left: 59px;
+}
+
+.iconBank{
+    width: 40px !important;
+    height: 40px;
+    border-radius: 20px;
+    display: inline
+    
+}
+
+/* Bản quyền */
+.copy{
+    position: absolute;
+    top: 183px;
+    left: 49px;
+    height: 150px;
+    width: 214px;
+    opacity: .6;
+    transform: rotate(30deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy div{
+    font-size: 20px;
+    color: #404656;
+}
+
+.copy img{
+    width: 100px;
+}
+
+
+
+/* Tác vụ */
+
+.taskbar{
+    width: 100%;
+    position: absolute;
+    top: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 33px;
+}
+
+.timePhone {
+    font-family: "SanFranciscoText-Regular", sans-serif;
+    font-size: 21px;
+    color: #000;
+}
+
+.taskbarRight{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.taskbarRight img{
+    width: 24px;
+}
+
+.imageWifi{
+    width: 40px !important;
+    margin: -5.5px;
+}
+
+
+.inputPin{
+    background-color: var(--background-color);
+    color: var(--main-color);
+}
+
+.boxPin{
+    width: 100%;
+    height: 29px;
+}
+
+.pinne{
+    width: 25px;
+}
+
+.pinne img{
+    width: 38px;
+    height: 17px;
+    top: 6px;
+}
+
+.pinne div{
+    top: 9px;
+        left: 4px;
+        border-radius: 2px
+}

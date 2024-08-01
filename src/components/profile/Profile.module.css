@@ -1,0 +1,26 @@
+.boxAvatar{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.avatar{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.boxInfo{
+    font-size: 2rem;
+}
+
+.editform input{
+    border: 1px solid #404656;
+    padding: 1.5rem 2rem;
+    font-size: 1.6rem;
+}
+
+.noo{
+    cursor: pointer;
+    background-color: #DA1B20 !important;
+}

@@ -1,0 +1,69 @@
+@import url("../../global.css");
+
+.home{
+    display: flex;
+}
+
+.left{
+    width: 260px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.right{
+    flex: 1;
+    width: 100%;
+    padding: 2rem 0;
+    position: relative;
+    transition: 300ms ease all;
+    backface-visibility: hidden;
+    min-height: 115vh;
+    margin-left: 260px;
+}
+
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper h1{
+    margin-top: 2rem;
+}
+
+.wrapper table {
+    margin: 2rem 0;
+    font-size: 1.4rem;
+    color: var(--text-main-color);
+}
+
+.bottomWrapper{
+    margin-top: 2rem;
+}
+
+.buttonTabs{
+    display: flex;
+    gap: 2rem;
+}
+
+.activeBtn{
+    color: #8364e2 !important;
+    background-color: #f6f6f6 !important;
+    outline: none;
+}
+
+.activeBtn:focus {
+    outline: none !important;
+}
+
+.content{
+    display: none;
+}
+
+.activeContent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}

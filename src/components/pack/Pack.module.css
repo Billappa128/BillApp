@@ -1,0 +1,27 @@
+@import url("../../global.css");
+
+
+
+.cardPack{
+    background-color: var(--background-color1);
+    outline: none;
+    border: none;
+    font-size: 1.2rem;
+    color: var(--text-main-color);
+    min-width: 30rem;
+    border-radius: 2rem;
+}
+
+.bgN{
+    background-color: var(--background-color1);
+    border: none;
+}
+
+.setPrice{
+    color: var(--main-color);
+    font-size: 3rem;
+}
+
+.donvi{
+    color: var(--text-second-color);
+}

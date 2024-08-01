@@ -1,0 +1,22 @@
+.notification {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.inputCus {
+    background-color: transparent !important;
+    border: 1px solid #404656;
+    padding: 1.5rem 2rem;
+    color: var(--text-main-color);
+    font-size: 2rem;
+    resize: none;
+}
+
+.inputCus:focus {
+    color: var(--text-main-color);
+}
+
+.noo {
+    cursor: pointer;
+    background-color: #DA1B20 !important;
+}

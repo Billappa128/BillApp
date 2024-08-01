@@ -1,0 +1,78 @@
+
+.subContent{
+    padding-top: 2rem;
+    display: flex;
+    overflow: auto;
+}
+
+.title{
+    color: var(--text-second-color);
+}
+
+.line{
+    margin-left: 1rem;
+    height: 3rem;
+    width: 1px;
+    background-color: var(--main-color);
+}
+
+.card1{
+    display: flex;
+    align-items: center;
+        justify-content: space-around;
+}
+
+
+.cardne{
+    border-radius: 2rem;
+    border: none;
+    background-color: var(--background-color1);
+}
+
+.radiusF2{
+    position: relative;
+    border-radius: 1rem;
+    font-size: 1.6rem;
+}
+
+.radiusF2::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.23);
+  }
+
+  .radiusF1{
+    background-color: var(--background-color1);
+    font-size: 1.6rem;
+  }
+
+  .cusLink{
+    z-index: 10;
+    cursor: pointer;
+  }
+
+  .notifi{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    margin: 2rem 0;
+    justify-content: space-between;
+  }
+
+  .avatarBox{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 4rem;
+  }
+
+  .avatarBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }

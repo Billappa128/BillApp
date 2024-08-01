@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "Medium";
+    /*Can be any text*/
+    src: local("Regular"),
+        url("./fonts/Regular.otf") format("truetype");
+}
+@font-face {
+    font-family: "Thin";
+    /*Can be any text*/
+    src: local("Light"),
+        url("./fonts/Light.otf") format("truetype");
+}
+@font-face {
+    font-family: "Bold";
+    /*Can be any text*/
+    src: local("Bold"),
+        url("./fonts/Bold.otf") format("truetype");
+}
+@font-face {
+    font-family: "Extrabold";
+    /*Can be any text*/
+    src: local("Extrabold"),
+        url("./fonts/Extrabold.otf") format("truetype");
+}
+@font-face {
+    font-family: "Semibold";
+    /*Can be any text*/
+    src: local("Semibold"),
+        url("./fonts/Semibold.otf") format("truetype");
+}
+
+@font-face {
+    font-family: "SanFranciscoText-Regular";
+    /*Can be any text*/
+    src: local("SanFranciscoText-Regular"),
+        url("./fonts/SanFrancisco/SanFranciscoText-Regular.otf") format("truetype");
+}
+
+:root {
+    --main-color: rgb(115, 103, 240);
+    --text-second-color: #d0d2d6;
+    --text-main-color: #b4b7bd;
+    --border-input: 1px solid #757575;
+    --border-focus: 1px solid var(--main-color);
+    --background-color: #161d31;
+    --background-color1: #283046;
+}
+
+* {
+    font-family: 'Medium', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    /* overflow-x: hidden; */
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+.f-z-15 {
+    font-size: 1.6rem;
+}
+
+.f-z-24 {
+    font-size: 2.4rem;
+}
+
+.form {
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.input-form {
+    padding: 1.7rem 2rem;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border: var(--border-input);
+    color: var(--text-main-color);
+}
+
+.input-form:focus {
+    background-color: transparent;
+    border: var(--border-focus);
+    color: var(--text-main-color);
+}
+
+.btn-c {
+    padding: .7rem 1rem;
+    font-size: 1.5rem;
+    background-color: var(--main-color);
+    border: none;
+    color: #fff;
+    border-radius: 1rem;
+}
+
+.popup-content{
+    width: auto;
+    border-radius: 2rem;
+    background-color: var(--background-color);
+    border: none;
+    outline: none;
+    padding: 0 2rem;
+}
+
+
+.btn-c:hover {
+    padding: .7rem 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: var(--main-color);
+    box-shadow: -3px 4px 20px -6px rgba(115, 103, 240, 0.52);
+    border: none;
+}
+
+
+.rightPage {
+    background-color: var(--background-color);
+    color: var(--text-main-color);
+}
+
+.bg1{
+    background-color: var(--background-color1);
+    color: var(--text-main-color);
+}
+

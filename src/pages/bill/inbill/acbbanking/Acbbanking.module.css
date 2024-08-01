@@ -1,0 +1,278 @@
+.subContent {
+    padding-top: 2rem;
+    display: flex;
+    overflow: auto;
+}
+
+.title {
+    color: var(--text-second-color);
+}
+
+.line {
+    margin-left: 1rem;
+    height: 3rem;
+    width: 1px;
+    background-color: var(--main-color);
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    min-width: 700px;
+    width: 700px;
+    margin-right: 20px;
+}
+
+.left form {
+    background-color: var(--background-color1);
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.left form h1 {
+    margin-bottom: 1rem;
+}
+.right {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.right span {}
+
+.inputCus {
+    background-color: transparent !important;
+    border: 1px solid #404656;
+    padding: 1.5rem 2rem;
+    color: var(--text-main-color);
+    font-size: 1.2rem;
+}
+
+.inputCus:focus {
+    color: var(--text-main-color);
+}
+
+.selectCus {
+    background-color: transparent !important;
+    border: 1px solid #404656;
+    color: var(--main-color);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.selectCus:focus {
+    color: var(--main-color);
+}
+
+.selectCus option {
+    /* Tùy chỉnh nền cho các tùy chọn */
+    background-color: var(--background-color1);
+    color: #Fff;
+}
+
+.selectCus option:hover {
+    /* Tùy chỉnh nền khi hover trên tùy chọn */
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.selectCus option:checked {
+    /* Tùy chỉnh nền khi tùy chọn được chọn */
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+
+
+/* --------------REF ----------- */
+.date {
+    color: #000000;
+    font-size: 24px;
+    right: 66px;
+    top: 454px;
+}
+.date1 {
+    color: #000000;
+    font-size: 24px;
+    right: 66px;
+    top: 514px;
+}
+
+.time {
+    font-size: 20px;
+    top: 455px;
+    left: 342px;
+    color: #6d6d6d;
+}
+
+.transactionCode {
+    font-size: 8px;
+    top: 100px;
+    right: 19px;
+    color: #9d9d9d;
+}
+
+.senderNumber {
+    font-family: "Extrabold", sans-serif;
+    color: #1d3f96;
+    font-size: 21px;
+    left: 71px;
+    top: 744px;
+}
+
+.senderAccount {
+    font-size: 24px;
+    top: 715px;
+    left: 71px;
+    color: #1d3f96;
+}
+
+.receiverAccount {
+    font-size: 23px;
+    top: 1042px;
+    right: 52px;
+    color: #000;
+}
+
+.receiverName {
+    font-size: 23px;
+    top: 889px;
+    right: 52px;
+    color: #000;
+}
+
+.nameBank {
+    width: 251px;
+    font-size: 23px;
+    top: 954px;
+    right: 52px;
+    color: #000;
+    line-height: 27px;
+    text-align: end;
+}
+
+.amountNumber {
+    font-family: "Bold", sans-serif;
+    font-size: 30px;
+    top: 251px;
+    right: 3px;
+    color: #0560ad;
+    width: 591px;
+    text-align: center;
+}
+
+.amountText {
+    font-size: 22px;
+    top: 303px;
+    right: 83px;
+    color: #818181;
+    text-align: center;
+    width: 433px;
+    line-height: 22px;
+}
+
+.description {
+    width: 130px;
+    font-size: 10px;
+    top: 356px;
+    right: 19px;
+    color: #4f4f4f;
+    line-height: 10px;
+    text-align: end;
+}
+
+/* Bản quyền */
+.copy{
+    position: absolute;
+    top: 183px;
+    left: 49px;
+    height: 150px;
+    width: 214px;
+    opacity: .6;
+    transform: rotate(30deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy div{
+    font-size: 20px;
+    color: #404656;
+}
+
+.copy img{
+    width: 100px;
+}
+
+
+
+/* Tác vụ */
+
+.taskbar{
+    width: 100%;
+    position: absolute;
+    top: 19px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 33px;
+}
+
+.timePhone {
+    font-family: "SanFranciscoText-Regular", sans-serif;
+    font-size: 21px;
+    color: #000;
+    font-weight: bold;
+}
+
+.taskbarRight{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.taskbarRight img{
+    width: 24px;
+}
+
+.imageWifi{
+    width: 40px !important;
+    margin: -5.5px;
+}
+
+
+.inputPin{
+    background-color: var(--background-color);
+    color: var(--main-color);
+}
+
+.boxPin{
+    width: 100%;
+    height: 29px;
+}
+
+.pinne{
+    width: 25px;
+}
+
+.pinne img{
+    width: 38px;
+    height: 17px;
+    top: 6px;
+}
+
+.pinne div{
+    top: 9px;
+        left: 4px;
+        border-radius: 2px
+}

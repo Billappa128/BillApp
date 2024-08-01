@@ -1,0 +1,22 @@
+
+.subContent{
+    padding-top: 2rem;
+    display: flex;
+    overflow: auto;
+}
+
+.title{
+    color: var(--text-second-color);
+}
+
+.line{
+    margin-left: 1rem;
+    height: 3rem;
+    width: 1px;
+    background-color: var(--main-color);
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,26 @@
+@import url(../../global.css);
+
+.wrapper{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer{
+    width: 100%;
+    padding: 2rem;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer div span{
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+.footer div i{
+    font-size: 1.5rem;
+    color: var(--main-color);
+}

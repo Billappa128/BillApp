@@ -1,0 +1,17 @@
+.deposit{
+    width: 100%;
+}
+
+th, td{
+    padding: 2rem !important;
+}
+
+.oke{
+    background-color: #00A652 !important;
+    cursor: pointer;
+}
+
+.noo{
+    cursor: pointer;
+    background-color: #DA1B20 !important;
+}

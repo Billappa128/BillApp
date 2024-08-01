@@ -1,0 +1,227 @@
+.subContent {
+    padding-top: 2rem;
+    display: flex;
+    overflow: auto;
+}
+
+.title {
+    color: var(--text-second-color);
+}
+
+.line {
+    margin-left: 1rem;
+    height: 3rem;
+    width: 1px;
+    background-color: var(--main-color);
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    min-width: 700px;
+    width: 700px;
+    margin-right: 20px;
+}
+
+.left form {
+    background-color: var(--background-color1);
+    padding: 2rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+
+.left form h1 {
+    font-size: 1.7rem;
+    margin-bottom: 2rem;
+}
+
+.right {
+    width: 591px;
+    height: 1280px;
+    position: relative;
+}
+
+.right img {
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    object-fit: cover;
+}
+
+.right span {}
+
+.inputCus {
+    background-color: transparent !important;
+    border: 1px solid #404656;
+    padding: 1.5rem 2rem;
+    color: var(--text-main-color);
+    font-size: 1.2rem;
+}
+
+.inputCus:focus {
+    color: var(--text-main-color);
+}
+
+.selectCus {
+    background-color: transparent !important;
+    border: 1px solid #404656;
+    color: var(--main-color);
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.selectCus:focus {
+    color: var(--main-color);
+}
+
+.selectCus option {
+    /* Tùy chỉnh nền cho các tùy chọn */
+    background-color: var(--background-color1);
+    color: #Fff;
+}
+
+.selectCus option:hover {
+    /* Tùy chỉnh nền khi hover trên tùy chọn */
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.selectCus option:checked {
+    /* Tùy chỉnh nền khi tùy chọn được chọn */
+    background-color: var(--main-color);
+    color: #fff;
+}
+
+.optionTaskbar{
+    background-color: var(--background-color1);
+    padding: 2rem;
+    margin: 1rem 0;
+}
+
+
+
+/* --------------REF ----------- */
+.date {
+    font-family: "Bold", sans-serif;
+}
+
+.receiverAccount {
+    font-family: "Bold", sans-serif;
+}
+
+.amountNumber {
+    font-family: "Bold", sans-serif;
+    color: #0066aa;
+}
+
+.timeLine{
+    width: 92%;
+    margin: 0 auto;
+    color: #9c9c9c;
+    font-size: 16px !important;
+}
+
+.boxContent {
+    width: 591px;
+    top: 324px;
+    right: 0px;
+}
+
+.tabContent{
+    width: 92%;
+    font-size: 24px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: #353535;
+    background-color: #d2fffd;
+    border-radius: 2rem;
+}
+
+/* Bản quyền */
+.copy{
+    position: absolute;
+    top: 183px;
+    left: 49px;
+    height: 150px;
+    width: 214px;
+    opacity: .6;
+    transform: rotate(30deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copy div{
+    font-size: 20px;
+    color: #404656;
+}
+
+.copy img{
+    width: 100px;
+}
+
+
+
+/* Tác vụ */
+
+.taskbar{
+    width: 100%;
+    position: absolute;
+    top: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.timePhone {
+    font-family: "SanFranciscoText-Regular", sans-serif;
+    font-size: 12px;
+    color: #ffffff;
+}
+
+.taskbarRight{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.taskbarRight img{
+    width: 15px;
+}
+
+.imageWifi{
+    width: 29px !important;
+    margin: -5.5px;
+}
+
+
+.inputPin{
+    background-color: var(--background-color);
+    color: var(--main-color);
+}
+
+.boxPin{
+    margin-bottom: 5px;
+}
+
+.pinne{
+    width: 25px;
+    margin-bottom: 7px;
+}
+
+.pinne img{
+    width: 24px;
+    top: 0;
+    left: 0;
+}
+
+.pinne div{
+    top: 2.9px;
+    left: 2.3px;
+    border-radius: 1px;
+}

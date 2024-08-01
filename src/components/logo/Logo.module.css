@@ -1,0 +1,25 @@
+
+.logoBox{
+}
+
+.titleLogo{
+    align-items: flex-end !important;
+    display: flex;
+}
+
+.logoImg{
+    height: 50px;
+    object-fit: cover;
+}
+
+.logoTitle{
+    color: #fff;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.logoSubTitle{
+    font-weight: 300;
+    color: #fff;
+    font-size: 2.2rem;
+}
